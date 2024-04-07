@@ -35,7 +35,7 @@ let friendsPets = 2
 // 10 - Add two pets to your `pets` variable
 pets +=2
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-let allowedPets = 6
+const allowedPets = 6
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
@@ -54,7 +54,7 @@ console.log(result);
 //      Console log the value of `diceRoll`
 let diceRoll = `Try again later.`;
 
-if (luckyNumber == 2 && adventurous == true) {
+if (luckyNumber === 2 && adventurous === true) {
 diceRoll = `Roll the dice!`;
 }
 console.log(diceRoll);
@@ -91,8 +91,8 @@ if (pets > friendsPets){
 else if (pets < friendsPets) {
   mostPets = friendsPets
 }
-else if (pets ==friendsPets) {
-  mostPets = `we have the same number of pets!`
+else if (pets = friendsPets) {
+  mostPets = `we have the same number of pets!`+ pets
 }
 console.log(mostPets);
 // 16 - Make a variable called `luckyResult`
@@ -124,6 +124,16 @@ switch (luckyNumber){
 console.log(luckyResult);
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
+// 12 - Create a variable called `result`. Create a conditional:
+//      if adventurous is true, set `result` to be "Adventures are great!", 
+//      if it's not true,  set `result` to be "How about we stay home?"
+//      Console log the value of `result`
+
+
+
+result = adventurous ? 'Adventures are great!' : 'How about we stay home?';
+
+console.log(result);
 
 
 
