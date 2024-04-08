@@ -42,7 +42,7 @@ const allowedPets = 6
 //      Console log the value of `result`
 let result; //undefined
 
-if (adventurous = true) {
+if (adventurous === true) {
   result = `Adventures are great!`;
 }
 else {result = `How about we stay home?`;}
@@ -70,7 +70,7 @@ let petStatus;
 if (pets < allowedPets){
   petStatus =  `I can have more pets`;
 }
-else if (pets == allowedPets){
+else if (pets === allowedPets){
   petStatus = `I have enough pets`;
 }
 else if (pets > allowedPets) {
@@ -91,7 +91,7 @@ if (pets > friendsPets){
 else if (pets < friendsPets) {
   mostPets = friendsPets
 }
-else if (pets = friendsPets) {
+else if (pets === friendsPets) {
   mostPets = `we have the same number of pets!`+ pets
 }
 console.log(mostPets);
